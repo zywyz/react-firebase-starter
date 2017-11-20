@@ -1,0 +1,18 @@
+@import 'variables.scss';
+
+input {
+  padding: 10px;
+  margin: 0 0 10px;
+  border: solid 1px #ddd;
+  width: 100%;
+
+  &.error {
+    border-color: $errorColor;
+  }
+}
+
+.error-message {
+  color: $errorColor;
+  margin-bottom: 10px;
+  display: block;
+}
